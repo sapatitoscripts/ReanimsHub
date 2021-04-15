@@ -24,7 +24,6 @@ chr["SprintScript"]:Destroy()
 
 --//BeUnrecognizable//-- (Usefull to cheat without being banned.)
 for i, v in pairs(chr:GetChildren()) do
---//BeUnrecognizableEnd//--
 
 --//DeleteNametag//--
 if v:IsA("BillboardGui") then
@@ -53,3 +52,4 @@ if v:IsA("Accessory") then
 end
 --//AccessoryDestroyEnd//--
 end
+--//BeUnrecognizableEnd//--

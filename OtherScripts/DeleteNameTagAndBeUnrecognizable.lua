@@ -18,10 +18,10 @@ for i, v in pairs(chr:GetChildren()) do
     --//DeleteFaceEnd//--
     
     --//RemoveShirtAndPants//--
-    if v.Name == "Shirt" then
+    if v:IsA("Shirt") then
         v:Destroy()
     end
-    if v.Name == "Pants" then
+    if v:IsA("Pants") then
         v:Destroy()
     end
     --//RemoveShirtAndPantsEnd//--
